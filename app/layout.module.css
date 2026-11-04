@@ -1,0 +1,19 @@
+.page {
+  position: relative;
+}
+
+.topBgWrapper {
+  position: absolute;
+  top: -12%;
+  left: 0;
+  width: 100%;
+  aspect-ratio: 1466/1677;
+  mix-blend-mode: color-burn;
+  opacity: 0.75;
+  z-index: -1;
+  background: linear-gradient(
+    180deg,
+    hsla(0, 0%, 94%, 0) 71.88%,
+    #f6e0dc 95.71%
+  );
+}

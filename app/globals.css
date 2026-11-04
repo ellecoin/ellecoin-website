@@ -1,0 +1,77 @@
+:root {
+  --background: linear-gradient(
+    180deg,
+    #efefef,
+    #f7dfda 23.96%,
+    #f7e0db 33.43%,
+    #efefef 51.51%,
+    #f4e5e2 81.97%,
+    #efeeee 98.91%
+  );
+  --foreground: #171717;
+  --text-color: #000;
+  --headers-color: #7c4644;
+  --main-color: #e66b64;
+  --white-color: #fff;
+}
+
+body,
+html {
+  max-width: 100vw;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a,
+button,
+li,
+p,
+span {
+  font-family: var(--font-tilda);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-stein) !important;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Swiper theme overrides (pagination bullets + navigation arrows) */
+.swiper-pagination-bullet {
+  background: var(--white-color) !important;
+  border: 1px solid var(--main-color);
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--main-color) !important;
+  border: 1px solid var(--main-color);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--main-color) !important;
+}
+
+.swiper-slide {
+  height: auto !important;
+}
