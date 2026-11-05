@@ -15,7 +15,7 @@ const tiers = [
   },
   {
     name: "Patron",
-    text: "All Champion benefits, plus priority access to community rounds of Fund-backed projects, the right to submit governance proposals and private AMAs with funded founders.",
+    text: "All Champion benefits, plus priority access to community rounds of projects the Fund backs, the right to submit governance proposals and private AMAs with funded founders.",
   },
 ];
 

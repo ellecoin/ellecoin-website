@@ -3,7 +3,7 @@ import styles from "./sections.module.css";
 const items = [
   {
     title: "Token contract",
-    text: "A standard fixed-supply BEP-20 built on audited open-source templates, with no mint function after deployment.",
+    text: "A standard fixed supply BEP-20 built on audited open source templates, with no mint function after deployment.",
   },
   {
     title: "Independent audit",
@@ -11,7 +11,7 @@ const items = [
   },
   {
     title: "Vesting & liquidity locks",
-    text: "Established on-chain vesting and lock services, verifiable by anyone.",
+    text: "Established on chain vesting and lock services, verifiable by anyone.",
   },
   {
     title: "Fund custody",

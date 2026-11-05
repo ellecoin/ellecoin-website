@@ -42,7 +42,7 @@ export default function Tokenomics() {
         Every token has a clear and public purpose. The majority of the supply,
         60%, is dedicated to the Women Investment Fund. There are no allocations
         for private investors, and all schedules are fixed and verifiable
-        on-chain.
+        on chain.
       </p>
       <Image
         src="/tokenomics-chart.png"

@@ -3,7 +3,7 @@ import ElleAICriteria from "@/components/ElleAICriteria";
 import ElleAIHowItWorks from "@/components/ElleAIHowItWorks";
 
 export const metadata = {
-  title: "ElleAI — Submit Your Pitch Deck",
+  title: "ElleAI: Submit Your Pitch Deck",
   description:
     "Upload your pitch deck for a fast, structured AI evaluation on Market Potential, Social Sentiment and Inclusive Impact.",
 };

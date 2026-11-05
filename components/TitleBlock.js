@@ -11,7 +11,7 @@ export default function TitleBlock() {
         </h1>
         <p className={styles.subheader}>
           Where AI meets blockchain to change who gets funded in Web3. We
-          discover, evaluate and fund female-led innovation, and give the
+          discover, evaluate and fund innovation led by women, and give the
           community a direct voice in which founders are backed.
         </p>
         <div className={styles.actions}>

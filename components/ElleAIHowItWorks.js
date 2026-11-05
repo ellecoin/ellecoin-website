@@ -4,7 +4,7 @@ const steps = [
   "Upload your pitch deck through the ElleCoin website.",
   "ElleAI scores your project across Market Potential, Social Sentiment and Inclusive Impact.",
   "You receive your evaluation, with feedback you can use whether or not you seek funding.",
-  "High-scoring projects are shortlisted for community review and a potential Fund vote.",
+  "The strongest projects are shortlisted for community review and a potential Fund vote.",
 ];
 
 export default function ElleAIHowItWorks() {

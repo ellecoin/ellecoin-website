@@ -7,7 +7,7 @@ const items = [
   },
   {
     title: "Guided Steps",
-    text: "Key actions, such as submitting a pitch deck, joining the presale or casting a vote, come with step-by-step guidance for first-timers.",
+    text: "Key actions, such as submitting a pitch deck, joining the presale or casting a vote, come with step by step guidance for newcomers.",
   },
   {
     title: "Visual Clarity",

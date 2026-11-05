@@ -13,7 +13,7 @@ const rows = [
   },
   {
     key: "Execution",
-    val: "Approved Fund releases are executed by the Fund multisig and published on-chain.",
+    val: "Approved Fund releases are executed by the Fund multisig and published on chain.",
   },
 ];
 

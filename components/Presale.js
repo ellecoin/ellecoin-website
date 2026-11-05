@@ -6,7 +6,7 @@ const principles = [
     text: "One public round at one price. No seed, private or discounted rounds, and no early access for larger buyers.",
   },
   {
-    title: "Low per-wallet caps",
+    title: "Low per wallet caps",
     text: "Caps are set so the sale is spread across many people rather than a few wallets.",
   },
   {
@@ -24,7 +24,7 @@ const conditions = [
   "The token contract is audited, with the audit report public.",
   "Vesting and liquidity locks are in place and verifiable.",
   "ElleAI has evaluated an initial cohort of founder pitch decks.",
-  "The community has reached its pre-launch size milestone across X and Telegram.",
+  "The community has reached its target size across X and Telegram.",
   "A launch partner is confirmed, or a direct presale contract has been audited.",
 ];
 
@@ -55,7 +55,7 @@ export default function Presale() {
         ))}
       </ul>
       <div className={styles.note}>
-        Price, per-wallet caps, launch partner and dates will be announced
+        Price, per wallet caps, launch partner and dates will be announced
         through official ElleCoin channels once these conditions are met.{" "}
         <strong>
           ElleCoin will never announce a sale through private messages.

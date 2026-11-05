@@ -6,7 +6,7 @@ const attributes = [
   { key: "Total supply", val: "25,000,000, fixed. No minting after launch." },
   {
     key: "Launch model",
-    val: "Single community presale: same price for everyone, low per-wallet caps, no private or discounted rounds.",
+    val: "Single community presale: same price for everyone, low per wallet caps, no private or discounted rounds.",
   },
   { key: "Governance", val: "Community voting on Snapshot, with quadratic voting." },
 ];
@@ -26,7 +26,7 @@ const utility = [
   },
   {
     title: "Community membership",
-    text: "Holder-only channels, community calls, events and founder demo days.",
+    text: "Private channels, community calls, events and founder demo days.",
   },
 ];
 

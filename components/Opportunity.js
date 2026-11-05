@@ -4,11 +4,11 @@ const stats = [
   { num: "27%", label: "of employees at top Web3 startups are women" },
   {
     num: "~4x",
-    label: "more capital raised by men-founded than women-founded Web3 startups",
+    label: "more capital raised by startups founded by men than by women",
   },
   {
     num: "6%",
-    label: "of funding secured by female-led startups, Q1 2022 to Q3 2023",
+    label: "of funding secured by startups led by women, Q1 2022 to Q3 2023",
   },
 ];
 

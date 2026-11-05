@@ -9,7 +9,7 @@ import Markdown from "react-markdown";
 import styles from "./UploadFile.module.css";
 
 // Elle AI pitch-deck reader endpoint (GCP backend, separate domain).
-// Contract recovered from the original build — do not change without confirming
+// Contract recovered from the original build. Do not change without confirming
 // the server accepts the new request shape.
 const ELLE_AI_ENDPOINT = "https://elleai.co/process_pitch_deck";
 const RATE_LIMIT_MS = 60000;
