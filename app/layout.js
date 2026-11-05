@@ -26,11 +26,37 @@ const steinSans = localFont({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://ellecoin.co"),
   title: {
     default: "ElleCoin",
     template: "%s | ElleCoin",
   },
   description: "Empowering the Future of Female Finance",
+  openGraph: {
+    title: "ElleCoin: Empowering the Future of Female Finance",
+    description:
+      "Where AI meets blockchain to change who gets funded in Web3. We discover, evaluate and fund innovation led by women, with the community deciding who gets backed.",
+    url: "https://ellecoin.co",
+    siteName: "ElleCoin",
+    images: [
+      {
+        url: "/og.png",
+        width: 1200,
+        height: 630,
+        alt: "ElleCoin: Empowering the Future of Female Finance",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "ElleCoin: Empowering the Future of Female Finance",
+    description:
+      "Your pitch deck, evaluated by AI. Funded by community. Where AI meets blockchain to change who gets funded in Web3.",
+    images: ["/og.png"],
+    site: "@ellecoin",
+  },
 };
 
 export default function RootLayout({ children }) {
