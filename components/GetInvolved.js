@@ -1,7 +1,7 @@
 import styles from "./sections.module.css";
 
-// NOTE: Telegram and GitHub URLs are placeholders pending the real links.
-const TELEGRAM_URL = "https://t.me/ellecoin";
+// NOTE: GitHub URL is a placeholder pending the real link.
+const TELEGRAM_URL = "https://t.me/+SqS_SWuLga8zYzlk";
 const GITHUB_URL = "https://github.com/ellecoin";
 
 export default function GetInvolved() {

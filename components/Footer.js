@@ -24,9 +24,8 @@ export default function Footer() {
         >
           x.com/ellecoin
         </a>
-        {/* NOTE: placeholder Telegram URL, pending the real invite link */}
         <a
-          href="https://t.me/ellecoin"
+          href="https://t.me/+SqS_SWuLga8zYzlk"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.link}

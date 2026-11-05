@@ -4,13 +4,12 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "./Header.module.css";
 
-// NOTE: Telegram URL is a placeholder pending the real invite link.
 const links = [
   { label: "ElleAI", href: "/elleai", internal: true },
   { label: "Token", href: "/token", internal: true },
   { label: "Community", href: "/community", internal: true },
   { label: "Whitepaper", href: "/Whitepaper.pdf", external: true },
-  { label: "Telegram", href: "https://t.me/ellecoin", external: true },
+  { label: "Telegram", href: "https://t.me/+SqS_SWuLga8zYzlk", external: true },
 ];
 
 export default function Header() {
