@@ -2,7 +2,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import axios from "axios";
-import { sendGTMEvent } from "@next/third-parties/google";
+import { sendGAEvent } from "@next/third-parties/google";
 import { useDropzone } from "react-dropzone";
 import { toast } from "react-toastify";
 import { ClipLoader } from "react-spinners";
@@ -40,9 +40,8 @@ export default function UploadFile() {
     }
     localStorage.setItem("lastRequestTime", now.toString());
     uploadStartRef.current = now;
-    // GA4 (via GTM): a deck was submitted for evaluation.
-    sendGTMEvent({
-      event: "pitch_deck_upload",
+    // GA4: a deck was submitted for evaluation.
+    sendGAEvent("event", "pitch_deck_upload", {
       file_size_kb: Math.round(pdf.size / 1024),
     });
     setLoading(true);
@@ -60,18 +59,16 @@ export default function UploadFile() {
         },
       });
       setAnswer(response.data.analysis[0]);
-      // GA4 (via GTM): evaluation returned successfully.
-      sendGTMEvent({
-        event: "pitch_deck_analyzed",
+      // GA4: evaluation returned successfully.
+      sendGAEvent("event", "pitch_deck_analyzed", {
         duration_ms: Date.now() - uploadStartRef.current,
       });
     } catch (error) {
       toast.error("Something went wrong!");
       setFile(undefined);
       console.error("Error while AI response", error);
-      // GA4 (via GTM): evaluation failed (backend or network error).
-      sendGTMEvent({
-        event: "pitch_deck_failed",
+      // GA4: evaluation failed (backend or network error).
+      sendGAEvent("event", "pitch_deck_failed", {
         status: error?.response?.status || "network",
       });
     } finally {

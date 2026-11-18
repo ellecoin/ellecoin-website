@@ -1,6 +1,6 @@
 import Image from "next/image";
 import localFont from "next/font/local";
-import { GoogleTagManager } from "@next/third-parties/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "swiper/css";
@@ -63,7 +63,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <GoogleTagManager gtmId="GTM-MMH2437G" />
+      <GoogleAnalytics gaId="G-9HY4T2H5TG" />
       <body className={`${tildaSans.variable} ${steinSans.variable}`}>
         <ToastContainer />
         <div className={layoutStyles.page}>
